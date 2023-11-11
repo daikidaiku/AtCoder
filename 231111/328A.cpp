@@ -9,5 +9,18 @@ struct cww{cww(){ios::sync_with_stdio(false);cin.tie(0);}}star;
 const long long INF = numeric_limits<long long>::max();
 int main()
 {
+    int n, x;
+    cin >> n >> x;
+    
+    int s[n];
+    rep(i,n)cin >> s[i];
+    int ans = 0;
+
+    rep(i,n){
+        if(s[i] <= x) ans += s[i];
+    }
+
+    cout << ans << endl;
+    
     return 0;
 }
