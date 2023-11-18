@@ -1,0 +1,2 @@
+all(st));
+    st.eras
