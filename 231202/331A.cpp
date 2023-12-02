@@ -9,6 +9,19 @@ struct cww{cww(){ios::sync_with_stdio(false);cin.tie(0);}}star;
 const long long INF = numeric_limits<long long>::max();
 int main()
 {
-	
+	int M, D;
+	cin >> M >> D;
+	int y, m, d;
+	cin >> y >> m >> d;
+	int ansy=y, ansm=m, ansd=d;
+	if(m = M && d == D) {
+		ansy += 1;
+		ansm = 1;
+		ansd = 1;
+	}else if(d = D) {
+		ansm++;
+		ansd = 1;
+	}else ansd++;
+	cout << ansy << " " << ansm  << " " << ansd << endl;
 	return 0;
 }
