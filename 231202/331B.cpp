@@ -9,6 +9,8 @@ struct cww{cww(){ios::sync_with_stdio(false);cin.tie(0);}}star;
 const long long INF = numeric_limits<long long>::max();
 int main()
 {
-	
+	int a;
+	cin >> a;
+	cout << a << endl;
 	return 0;
 }
