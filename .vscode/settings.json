@@ -29,7 +29,8 @@
     "ios": "cpp",
     "complex": "cpp",
     "limits": "cpp",
-    "bitset": "cpp"
+    "bitset": "cpp",
+    "cmath": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp_Runner.msvcBatchPath": "",

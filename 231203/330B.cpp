@@ -12,22 +12,18 @@ constexpr int INF = 1 << 30;
 
 int main()
 {
-	int n, s, m, l;
-	cin >> n >> s >> m >> l;
-	
-	int ans = INF;
-	int res;
-	rep(i,50){
-		rep(j,50){
-			rep(k,50){
-				res = s*i + m*j + l*k;
-				if(6*i + 8*j + 12*k >= n){
-					ans = min(ans, res);
-				}
-			}
-		}
+	int n;
+	ll l, r;
+	cin >> n >> l >> r;
+	ll a[n]; 
+	ll ans[n];
+	rep(i,n) cin >> a[i];
+	rep (i,n){
+		if (a[i] <= l) ans[i] = l;
+		else if (a[i] >= r) ans[i] = r;
+		else ans[i] = a[i];
 	}
-	cout << ans << endl;
-
+	rep(i,n)cout << ans[i] << " ";
+	cout << endl;
 	return 0;
 }
