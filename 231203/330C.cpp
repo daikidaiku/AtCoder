@@ -15,21 +15,23 @@ int main()
 	ll d;
 	cin >> d;
 	
-	ll x,y,c;
+	int x;
+	double y;
+	ll c;
+	int res1,res2;
 	ll ans = INF,res=0;
 	x = ceil(sqrt(d));
-	rep(i,x+1){
+	for(ll i= 0; i < x+1;i++){
 		c = i*i-d;
 		if(c < 0){
-			y = ceil(sqrt(-1 * c));
-			res = abs(y*y +c);
-			ans =min(res,ans);
-			y--;
-			res = abs(y*y +c);
-			ans =min(res,ans);
+			y = sqrt(-1 * c);
+			res1 =abs(ceil(y)*ceil(y) + c);
+			res2 =abs(int(y)*int(y) + c);
+			res = min(res1,res2);
+			ans = min(res,ans);
 		}else{
 			res = abs(c);
-			ans =min(res,ans);
+			ans = min(res,ans);
 		}
 		// cout << ans << endl;
 	}
