@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/Users/daiki_daiku/Library/CloudStorage/Box-Box/Personal/Documents/GitHub/AtCoder/track",
-      "program": "/Users/daiki_daiku/Library/CloudStorage/Box-Box/Personal/Documents/GitHub/AtCoder/track/build/Debug/outDebug",
+      "cwd": "/Users/daiki_daiku/Library/CloudStorage/Box-Box/Personal/Documents/GitHub/AtCoder/231203",
+      "program": "/Users/daiki_daiku/Library/CloudStorage/Box-Box/Personal/Documents/GitHub/AtCoder/231203/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
