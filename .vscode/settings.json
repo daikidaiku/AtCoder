@@ -30,7 +30,8 @@
     "complex": "cpp",
     "limits": "cpp",
     "bitset": "cpp",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "tuple": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp_Runner.msvcBatchPath": "",
