@@ -12,6 +12,14 @@ constexpr int INF = 1 << 30;
 
 int main()
 {
-	
-	return 0;
+    string s;
+    cin >> s;
+    int rice, miso;
+    rep(i,3){
+        if (s[i] == 'R') rice = i;
+        if (s[i] == 'M') miso = i;
+    }
+    if(rice < miso) cout << "Yes" << endl;
+    else cout << "No" << endl;
+    return 0;
 }
