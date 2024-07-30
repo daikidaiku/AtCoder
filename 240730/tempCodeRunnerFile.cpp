@@ -1,0 +1,1 @@
+cout << s_i << " " << s_j << endl;
