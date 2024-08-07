@@ -31,7 +31,8 @@
     "limits": "cpp",
     "bitset": "cpp",
     "cmath": "cpp",
-    "tuple": "cpp"
+    "tuple": "cpp",
+    "random": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp_Runner.msvcBatchPath": "",
